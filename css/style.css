@@ -1,1 +1,110 @@
 
+
+a{
+    text-decoration: none;
+}
+
+
+table{
+    border-radius: 20px;
+    overflow: hidden;
+    border-spacing: 0;
+}
+td,th{
+    text-align: center;
+    vertical-align: center;
+    paddding: 10px 10px;
+}
+
+tr:nth-child(even) td:nth-child(even){
+    background-color: #F3F3F3;
+}
+
+tr:nth-child(even) td:nth-child(odd){
+    background-color: #ECECEC;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    background-color: #E7E7E7;
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background-color: #DBDBDB;
+}
+
+tfoot th:nth-child(odd){
+    background-color: #DBDBDB;
+}
+
+tfoot th:nth-child(even){
+    background-color: #E7E7E7;
+}
+tr td:first-child{
+    width: 300px;
+}
+
+tr td:last-child{
+    width: 200px;
+}
+
+tfoot tr{
+    height: 70px;
+}
+
+tfoot th > a{
+    border: 1px solid gray;
+    padding: 5px 20px;
+    background-color: #D3D3D3;
+    color: #9EA6B1;
+    cursor: pointer;
+}
+
+tfoot th > a:hover{
+    background-color: #848789;
+}
+
+tfoot th > a:active{
+    box-shadow: inset 0px 0px 14px -1px #000000;
+}
+
+thead th{
+    height: 150px;
+}
+
+tbody td{
+    padding: 20px 50px;
+}
+
+thead tr{
+    background-color: dodgerblue;
+    color:white;
+    font-size:20px;
+}
+
+thead th:first-child{
+    background-color: #7887AB;
+}
+
+thead th:nth-child(2){
+    background-color: #4F628E;
+}
+
+thead th:nth-child(3){
+    background-color: #2E4172;
+}
+
+thead th:nth-child(4){
+    background-color: #162955;
+}
+
+thead th:nth-child(5){
+    background-color: #061539;
+}
+
+.price{
+    font-size: 35px;
+}
+
+tbody tr td:first-child{
+    text-align: left;
+}
